@@ -1,0 +1,149 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<!-- C++Builder XML Project -->
+<PROJECT>
+  <MACROS>
+    <VERSION value="BCB.06.00"/>
+    <PROJECT value="Project1.exe"/>
+    <OBJFILES value="Project1.obj Unit1.obj Object3D.obj ..\..\include\Options\Options.obj 
+      Unit2.obj ..\..\include\Log\LogFile.obj Object.obj ObjectText.obj 
+      FpsCounter.obj Camera.obj BoundingObject.obj Object3DUnit.obj 
+      Object3DStar.obj BoundingSphere.obj BoundingOBB.obj Object3DContainer.obj 
+      FrustumPiramide.obj ObjectSector.obj ObjectSkyBox.obj Object3DSkyBox.obj 
+      Object3DPlanet.obj Object3DPortal.obj Object3DBase.obj"/>
+    <RESFILES value="Project1.res"/>
+    <IDLFILES value=""/>
+    <IDLGENFILES value=""/>
+    <DEFFILE value=""/>
+    <RESDEPEN value="$(RESFILES) Unit1.dfm Unit2.dfm"/>
+    <LIBFILES value="d3dx8d.lib d3d8.lib"/>
+    <LIBRARIES value=""/>
+    <SPARELIBS value="vcl.lib rtl.lib"/>
+    <PACKAGES value="vcl.bpi rtl.bpi dbrtl.bpi adortl.bpi vcldb.bpi vclx.bpi bdertl.bpi 
+      vcldbx.bpi ibxpress.bpi dsnap.bpi cds.bpi bdecds.bpi qrpt.bpi teeui.bpi 
+      teedb.bpi tee.bpi dss.bpi teeqr.bpi visualclx.bpi visualdbclx.bpi 
+      dsnapcrba.bpi dsnapcon.bpi bcbsmp.bpi vclie.bpi xmlrtl.bpi inet.bpi 
+      inetdbbde.bpi inetdbxpress.bpi inetdb.bpi nmfast.bpi webdsnap.bpi 
+      bcbie.bpi websnap.bpi soaprtl.bpi dclocx.bpi dbexpress.bpi dbxcds.bpi 
+      indy.bpi bcb2kaxserver.bpi"/>
+    <PATHCPP value=".;..\..\include\Options;..\..\include\Log"/>
+    <PATHPAS value=".;"/>
+    <PATHRC value=".;"/>
+    <PATHASM value=".;"/>
+    <DEBUGLIBPATH value="$(BCB)\lib\debug"/>
+    <RELEASELIBPATH value="$(BCB)\lib\release"/>
+    <LINKER value="ilink32"/>
+    <USERDEFINES value="_DEBUG"/>
+    <SYSDEFINES value="NO_STRICT;_RTLDLL;USEPACKAGES"/>
+    <MAINSOURCE value="Project1.cpp"/>
+    <INCLUDEPATH value="..\..\include\Log;..\..\include\Options;&quot;C:\Program Files\Borland\CBuilder6\Projects&quot;;D:\Programms\Cpp\Vn\Client;$(BCB)\include;$(BCB)\include\vcl"/>
+    <LIBPATH value="..\..\include\Log;..\..\include\Options;&quot;C:\Program Files\Borland\CBuilder6\Projects&quot;;D:\Programms\Cpp\Vn\Client;$(BCB)\lib\obj;$(BCB)\lib"/>
+    <WARNINGS value="-w-par"/>
+    <OTHERFILES value=""/>
+  </MACROS>
+  <OPTIONS>
+    <IDLCFLAGS value="-I..\..\include\Log -I..\..\include\Options 
+      -I&quot;C:\Program Files\Borland\CBuilder6\Projects&quot; 
+      -ID:\Programms\Cpp\Vn\Client -I$(BCB)\include -I$(BCB)\include\vcl 
+      -src_suffix cpp -D_DEBUG -boa"/>
+    <CFLAG1 value="-Od -H=$(BCB)\lib\vcl60.csm -Hc -Vx -Ve -X- -r- -a8 -b- -k -y -v -vi- -c 
+      -tW -tWM"/>
+    <PFLAGS value="-$YD -$W -$O- -$A8 -v -JPHNE -M"/>
+    <RFLAGS value=""/>
+    <AFLAGS value="/mx /w2 /zd"/>
+    <LFLAGS value="-D&quot;&quot; -aa -Tpe -x -Gn -v"/>
+    <OTHERFILES value=""/>
+  </OPTIONS>
+  <LINKER>
+    <ALLOBJ value="c0w32.obj $(PACKAGES) Memmgr.Lib sysinit.obj $(OBJFILES)"/>
+    <ALLRES value="$(RESFILES)"/>
+    <ALLLIB value="$(LIBFILES) $(LIBRARIES) import32.lib cp32mti.lib"/>
+    <OTHERFILES value=""/>
+  </LINKER>
+  <FILELIST>
+      <FILE FILENAME="Project1.res" FORMNAME="" UNITNAME="Project1.res" CONTAINERID="ResTool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Project1.cpp" FORMNAME="" UNITNAME="Project1" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Unit1.cpp" FORMNAME="Form1" UNITNAME="Unit1" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Object3D.cpp" FORMNAME="" UNITNAME="Object3D" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\..\include\Options\Options.cpp" FORMNAME="" UNITNAME="Options" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Unit2.cpp" FORMNAME="Form2" UNITNAME="Unit2" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="d3dx8d.lib" FORMNAME="" UNITNAME="d3dx8d.lib" CONTAINERID="LibTool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\..\include\Log\LogFile.cpp" FORMNAME="" UNITNAME="LogFile" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Object.cpp" FORMNAME="" UNITNAME="Object" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="ObjectText.cpp" FORMNAME="" UNITNAME="ObjectText" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="FpsCounter.cpp" FORMNAME="" UNITNAME="FpsCounter" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Camera.cpp" FORMNAME="" UNITNAME="Camera" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="BoundingObject.cpp" FORMNAME="" UNITNAME="BoundingObject" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Object3DUnit.cpp" FORMNAME="" UNITNAME="Object3DUnit" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Object3DStar.cpp" FORMNAME="" UNITNAME="Object3DStar" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="BoundingSphere.cpp" FORMNAME="" UNITNAME="BoundingSphere" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="BoundingOBB.cpp" FORMNAME="" UNITNAME="BoundingOBB" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="d3d8.lib" FORMNAME="" UNITNAME="d3d8.lib" CONTAINERID="LibTool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Object3DContainer.cpp" FORMNAME="" UNITNAME="Object3DContainer" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="FrustumPiramide.cpp" FORMNAME="" UNITNAME="FrustumPiramide" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="ObjectSector.cpp" FORMNAME="" UNITNAME="ObjectSector" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="ObjectSkyBox.cpp" FORMNAME="" UNITNAME="ObjectSkyBox" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Object3DSkyBox.cpp" FORMNAME="" UNITNAME="Object3DSkyBox" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Object3DPlanet.cpp" FORMNAME="" UNITNAME="Object3DPlanet" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Object3DPortal.cpp" FORMNAME="" UNITNAME="Object3DPortal" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Object3DBase.cpp" FORMNAME="" UNITNAME="Object3DBase" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+  </FILELIST>
+  <BUILDTOOLS>
+  </BUILDTOOLS>
+
+  <IDEOPTIONS>
+[Version Info]
+IncludeVerInfo=0
+AutoIncBuild=0
+MajorVer=1
+MinorVer=0
+Release=0
+Build=0
+Debug=0
+PreRelease=0
+Special=0
+Private=0
+DLL=0
+Locale=1049
+CodePage=1251
+
+[Version Info Keys]
+CompanyName=
+FileDescription=
+FileVersion=1.0.0.0
+InternalName=
+LegalCopyright=
+LegalTrademarks=
+OriginalFilename=
+ProductName=
+ProductVersion=1.0.0.0
+Comments=
+
+[Excluded Packages]
+c:\program files\borland\cbuilder6\Bin\dclite60.bpl=Borland Integrated Translation Environment
+
+[Debugging]
+DebugSourceDirs=$(BCB)\source\vcl
+
+[Parameters]
+RunParams=
+Launcher=
+UseLauncher=0
+DebugCWD=
+HostApplication=
+RemoteHost=
+RemotePath=
+RemoteLauncher=
+RemoteCWD=
+RemoteDebug=0
+
+[Compiler]
+ShowInfoMsgs=0
+LinkDebugVcl=0
+LinkCGLIB=0
+
+[CORBA]
+AddServerUnit=1
+AddClientUnit=1
+PrecompiledHeaders=1
+  </IDEOPTIONS>
+</PROJECT>

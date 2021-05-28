@@ -1,2 +1,3 @@
-# interplanety_vn
-Interplanety VN
+# Interplanety VN
+
+Local 3D game project
